@@ -30,7 +30,6 @@
 (require 'company)
 (require 'tern)
 (require 'dash)
-(require 'dash-functional)
 (require 's)
 
 (defvar company-tern-property-marker " ○"
