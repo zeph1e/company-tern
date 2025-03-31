@@ -140,7 +140,7 @@ Use CALLBACK function to display candidates."
     (format annot type)))
 
 ;;;###autoload
-(defun company-tern (command &optional arg)
+(defun company-tern (command &optional arg &rest ignored)
   "Tern backend for company-mode.
 See `company-backends' for more info about COMMAND and ARG."
   (interactive (list 'interactive))
